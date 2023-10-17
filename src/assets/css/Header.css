@@ -52,7 +52,7 @@ header .titles .subtitle {
 .counter {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 125%;    
+    margin-top: 90%;    
 }
 
 .counter div {

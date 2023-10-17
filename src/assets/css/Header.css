@@ -8,8 +8,9 @@ header {
     flex-direction: column;
     position: relative;
     color: aliceblue;
+    justify-content: space-between;
+    padding-bottom: 20px;
    
-    
 }
 
 header::before{
@@ -51,8 +52,7 @@ header .titles .subtitle {
 
 .counter {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 90%;    
+    grid-template-columns: repeat(4, 1fr);    
 }
 
 .counter div {

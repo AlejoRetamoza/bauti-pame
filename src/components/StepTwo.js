@@ -13,7 +13,6 @@ export default function StepTwo() {
         <div className="img img-5"></div>
         <div className="img img-6"></div>
       </div>
-      
     </div>
   )
 }

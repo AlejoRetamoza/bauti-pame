@@ -11,7 +11,7 @@ export default function Header() {
     const getDiff = () => {  
 
         let startDate = new Date();
-        let endDate = new Date('2024-03-08T12:00:00');
+        let endDate = new Date('2023-11-24T12:00:00');
 
         let diff =  endDate.getTime() - startDate.getTime();
 
@@ -71,7 +71,7 @@ export default function Header() {
   return (
     <header>
         <div className='titles'>
-            <h1 className='title'>Alejo y Camila</h1>
+            <h1 className='title'>Ever y Camila</h1>
             <h3 className='subtitle'>Nos casamos</h3>
         </div>
         

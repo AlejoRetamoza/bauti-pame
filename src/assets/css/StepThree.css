@@ -6,13 +6,15 @@
    width: 40%;
 }
 
-.step-three-music {
+.step-three-money {
     background: var(--first-color);
     padding: 1em;
     color: #ffff;
     text-align: center;
 }
-
+.step-three-money p {
+    margin: 1em;
+}
 .step-three-dresscode {
     color: var(--first-color);
     background: #ffff;
@@ -31,7 +33,7 @@
     color: var(--first-color);
     background: #ffff;
     padding: 1em;
-    background: url(../static/1.jpg) ;
+    background: url(../static/1.png) ;
     background-size: contain;
     display: flex;
     flex-direction: column;

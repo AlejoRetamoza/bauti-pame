@@ -22,13 +22,13 @@ header::before{
     right: 0;
     bottom: 0;
     top: 0;
-    background: url(../static/imgHeader.jpg);
+    background: url(../static/f\ \(7\).jpeg);
     background-size: cover;
     background-position-x:center ;
+
 }
 
 header .titles {
-    margin-top: 70%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ header .titles .subtitle {
 .counter {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 8%;    
+    margin-top: 125%;    
 }
 
 .counter div {

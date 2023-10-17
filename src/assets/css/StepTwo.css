@@ -33,24 +33,25 @@
 .img-1 {
     width: 45vw;
     height: 45vw;
-    background: url("../static/foto3.jpg");
+    background: url("../static/f\ \(1\).jpeg");
     background-size: cover;
-    background-position:10%;
+    background-position:center;
 }
 
 
 .img-2 {
     width: 45vw;
     height: 45vw;
-    background: url("../static/foto4.webp");
+    background: url("../static/f\ \(2\).jpeg");
     background-size: cover;
+    background-position-x: -3em;
 }
 
 
 .img-3 {
     width: 45vw;
     height: 45vw;
-    background: url("../static/foto5.jpg");
+    background: url("../static/f\ \(3\).jpeg");
     background-size: cover;
     background-position-x:center ;
 }
@@ -59,26 +60,27 @@
 .img-4 {
     width: 45vw;
     height: 45vw;
-    background: url("../static/foto1.jpg");
+    background: url("../static/f\ \(4\).jpeg");
     background-size: cover;
-    background-position: 10% ;
+    background-position: center ;
 }
 
 
 .img-5 {
     width: 45vw;
     height: 45vw;
-    background: url("../static/foto2.jpg");
+    background: url("../static/f\ \(5\).jpeg");
     background-size: cover;
     background-position-x:center ;
+    background-position-y: -5em;
 }
 
 
 .img-6 {
     width: 45vw;
     height: 45vw;
-    background: url("../static/foto6.jpg");
+    background: url("../static/f\ \(6\).jpeg");
     background-size: cover;
-    background-position: 10%;
+    background-position-y:-1em
 }
 

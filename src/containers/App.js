@@ -5,7 +5,7 @@ import StepThree from '../components/StepThree';
 
 function App() {
   const path = window.location.href;
-  const phoneNumber = path.slice(path.indexOf('t=') + 2, path.indexOf('t=') + 3) === 'a' ? '+5491158679303' : '+5491132846932';
+  const phoneNumber = path.slice(path.indexOf('t=') + 2, path.indexOf('t=') + 3) === 'e' ? '+5491162884394' : '+5491155111417';
 
   localStorage.setItem('tel', phoneNumber)
   return (

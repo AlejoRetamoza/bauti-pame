@@ -12,13 +12,13 @@ export default function StepThree() {
     input.select();
     document.execCommand('copy');
     document.body.removeChild(input);
-    alert('CVU copiado');
+    alert('CVU copiado, ya podes pegar el cvu en tu cuenta para transferir dinero!');
   };
 
   const safePath = require.context("../assets/static/", true);
 
   const gotoGiftList = () => {
-    alert("Elegí que te gustaria regalarnos y borralo de la lista!");
+    alert("Anota tu nombre en el espacio verde junto al regalo desees hacer!");
     window.location.href =
       "https://docs.google.com/spreadsheets/d/1XrzL9sIvVyIV4ngx-YZguexXFqCj-7roApF2k0xmdpg/edit#gid=609351250";
   };
@@ -32,12 +32,6 @@ export default function StepThree() {
 
   return (
     <div className="step-three">
-      <div className="step-three-money">
-        <h2>Si deseas colaborar con dinero</h2>
-        <p>CVU: 0000007900209611038608 </p>
-        <p>Alias: EVERTOLEDODUART.UALA</p>
-        <button className="secondary-button" onClick={copyCVUToClipboard}>Copiar CVU</button>
-      </div>
       <div className="step-three-dresscode">
         <p>Dresscode:</p>
         <h2>Formal/Elegante</h2>
@@ -46,9 +40,15 @@ export default function StepThree() {
       <div className="step-three-gift">
         <img src={safePath("./regalo.png")} alt="" />
         <p>Si deseas hacernos un regalo</p>
-        <button className="secondary-button" onClick={gotoGiftList}>
+        <button className="primary-button" onClick={gotoGiftList}>
           Ver lista
         </button>
+      </div>
+      <div className="step-three-money">
+        <h2>Si deseas colaborar con dinero</h2>
+        <p>CVU: 0000007900209611038608 </p>
+        <p>Alias: EVERTOLEDODUART.UALA</p>
+        <button className="secondary-button" onClick={copyCVUToClipboard}>Copiar CVU</button>
       </div>
       <div className="step-three-confirm">
         <p>

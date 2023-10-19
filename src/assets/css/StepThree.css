@@ -16,17 +16,17 @@
     margin: 1em;
 }
 .step-three-dresscode {
-    color: var(--first-color);
-    background: #ffff;
+    color:#ffff;
+    background:var(--first-color);
     text-align: center;
  
 }
 
 
 .step-three-gift {
-    background: var(--first-color);
+    background: #ffff;
     padding: 1em;
-    color: #ffff;
+    color: var(--first-color);
     text-align: center;
 }
 .step-three-confirm {

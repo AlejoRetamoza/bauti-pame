@@ -34,7 +34,7 @@ export default function StepThree() {
     <div className="step-three">
       <div className="step-three-dresscode">
         <p>Dresscode:</p>
-        <h2>Formal/Elegante</h2>
+        <h2>Elegante Sport</h2>
         <img src={safePath("./dresscode.png")} alt="" />
       </div>
       <div className="step-three-gift">

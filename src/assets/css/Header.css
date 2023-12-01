@@ -14,7 +14,7 @@ header {
 }
 
 header::before{
-    filter: blur(2px);
+    filter: blur(6px);
     content: "";
     position: absolute;
     z-index: -1;
@@ -22,7 +22,7 @@ header::before{
     right: 0;
     bottom: 0;
     top: 0;
-    background: url(../static/portada.jpg);
+    background: url(../static/f6.jpg);
     background-size: cover;
     background-position-x:center ;
     background-attachment:fixed

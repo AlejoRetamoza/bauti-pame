@@ -1,86 +1,75 @@
-
 .step-two {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
-
 .step-two h2 {
-    text-align: center;
-    color: var(--first-color);
-    font-size: 1.5em;   
+  text-align: center;
+  color: var(--first-color);
+  font-size: 1.5em;
 }
 
 .galery {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, auto);
-    gap: 1em;
-    place-items: center;
-    margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  gap: 1em;
+  place-items: center;
+  margin-top: 1em;
 }
 
 .galery div {
-    border-radius: 25px;
+  border-radius: 25px;
 }
-
 
 .img-1 {
-    width: 45vw;
-    height: 45vw;
-    background: url("../static/f\ \(1\).jpeg");
-    background-size: cover;
-    background-position:center;
+  width: 45vw;
+  height: 45vw;
+  background: url("../static/f1.jpg");
+  background-size: cover;
+  background-position: center;
 }
-
 
 .img-2 {
-    width: 45vw;
-    height: 45vw;
-    background: url("../static/f\ \(2\).jpeg");
-    background-size: cover;
-    background-position-x: -3em;
+  width: 45vw;
+  height: 45vw;
+  background: url("../static/f2.jpg");
+  background-size: cover;
 }
-
 
 .img-3 {
-    width: 45vw;
-    height: 45vw;
-    background: url("../static/f\ \(3\).jpeg");
-    background-size: cover;
-    background-position-x:center ;
+  width: 45vw;
+  height: 45vw;
+  background: url("../static/f3.jpg");
+  background-size: cover;
+  background-position-x: center;
 }
-
 
 .img-4 {
-    width: 45vw;
-    height: 45vw;
-    background: url("../static/f\ \(4\).jpeg");
-    background-size: cover;
-    background-position: center ;
+  width: 45vw;
+  height: 45vw;
+  background: url("../static/f4.jpg");
+  background-size: cover;
+  background-position: center;
 }
-
 
 .img-5 {
-    width: 45vw;
-    height: 45vw;
-    background: url("../static/f\ \(5\).jpeg");
-    background-size: cover;
-    background-position-x:center ;
-    background-position-y: -5em;
+  width: 45vw;
+  height: 45vw;
+  background: url("../static/f5.jpg");
+  background-size: cover;
+  background-position-x: center;
 }
-
 
 .img-6 {
-    width: 45vw;
-    height: 45vw;
-    background: url("../static/f\ \(6\).jpeg");
-    background-size: cover;
-    background-position-y:-1em
+  width: 45vw;
+  height: 45vw;
+  background: url("../static/f6.jpg");
+  background-size: cover;
+  background-position: center;
 }
-
